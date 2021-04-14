@@ -23,6 +23,7 @@ const linearGradient = `
     <stop offset="0%" stop-color="#FFFFFF" />
   </linearGradient
 `
+```
 
 ## api
 
