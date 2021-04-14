@@ -1,0 +1,15 @@
+{
+  "name": "css-gradient-angle-to-svg-gradient-coordinates",
+  "version": "1.0.0",
+  "description": "Converts a CSS gradient's angle in degrees to a an SVG gradient's coordinates (x1/y1/x2/y2) to produce a linear gradient of the same angle.",
+  "main": "angle-to-coordinates.js",
+  "repository": "https://github.com/vibbio/css-gradient-angle-to-svg-gradient-coordinates",
+  "author": "Jon Packer <contact@jonpacker.com>",
+  "license": "MIT",
+  "scripts": {
+    "test": "mocha"
+  },
+  "devDependencies": {
+    "mocha": "^8.3.2"
+  }
+}
