@@ -2,7 +2,7 @@
 
 Converts a CSS gradient's angle in degrees to a an SVG gradient's coordinates (x1/y1/x2/y2) to produce a linear gradient of the same angle.
 
-![](https://media.giphy.com/media/APqEbxBsVlkWSuFpth/giphy.gif)
+![](https://media1.tenor.com/images/ba76ecf84b8818e1b7c9a8267de3b475/tenor.gif)
 
 ## install
 
