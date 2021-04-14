@@ -18,7 +18,7 @@ import angleToCoordinates from 'css-gradient-angle-to-svg-gradient-coordinates'
 const coordinates = angleToCoordinates(90)
 
 const linearGradient = `
-  <linearGradient x1={coordinates.x1} y1={coordinates.y1} x2={coordinates.x2} y2={coordinates.y2}>
+  <linearGradient x1="${coordinates.x1}" y1="${coordinates.y1}" x2="${coordinates.x2}" y2="${coordinates.y2}">
     <stop offset="0%" stop-color="#000000" />
     <stop offset="0%" stop-color="#FFFFFF" />
   </linearGradient
