@@ -1,15 +1,15 @@
 /**
- * Takes a an angle in degrees, and finds a set of coordinates around the edge of a square which
+ * Takes an angle in degrees and finds a set of coordinates around the edge of a square which
  * will draw a line dissecting the center of that square. For the purposes of using this to create
  * SVG gradients, the square is 1 long and 1 high, such that the output coordinates are percentages
  * that <linearGradient> will understand.
  *
- * In this case an angle of 0 degrees will draw an line from the bottom of the square to the top,
+ * In this case, an angle of 0 degrees will draw an line from the bottom of the square to the top,
  * dissecting the center. 45 degrees will draw a line from the bottom left of the square to the
  * top right, dissecting the center, etc.
  *
  * This is mainly useful in the application of converting a CSS gradient in degrees to an SVG
- * gradient which requires coordinates to render in the same way that CSS does. You can use
+ * gradient, which requires coordinates to render in the same way that CSS does. You can use
  * gradientTransform but this literally just rotates the gradient: this means that in a square,
  * when the gradient is rotated at any angle but those divisible by 90, the gradient will start too
  * late and stop too early, leaving clear bars of colour before and after the gradient.
@@ -53,7 +53,7 @@ module.exports = function angleToCoordinates (angleInDegrees, sizeOfSquare = 1) 
   //      0 to 45
   //  _________
   // |    |    | 45 to 90
-  // |____|____| 
+  // |____|____|
   // |    |    |
   // |____|____| 90 to 135
   //      135 to 180
